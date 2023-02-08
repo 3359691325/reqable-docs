@@ -6,13 +6,9 @@ sidebar_position: 0
 
 Reqable是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)，简单易用，功能强大，性能高效，助力程序开发和测试人员提高生产力！
 
-![此处应有图](/img/ic_reqable.png)
+![概览](arts/art01.png)
 
-### 历史
-
-Reqable的前身是HttpCanary（一款Android平台应用程序），但是我们推翻了所有的技术栈，并用C++和Flutter重写，只保留了Logo，所以两者并没有关联。当然，Reqable的使命之一，就是完全替代HttpCanary。
-
-### 特性
+## 特性
 
 Reqable提供了两大基本功能：**REST**和**Capture**调试，前者用于常规的接口测试，后者提供更专业地对HTTP网路测试功能，两者相辅相成。
 
@@ -30,6 +26,8 @@ Reqable提供了两大基本功能：**REST**和**Capture**调试，前者用于
 - [x] 请求授权设置，支持API KEY、Basic Auth和Bearer Token。
 - [x] Web代理设置，支持自定义代理配置，也支持系统代理。
 
+![API请求](arts/art02.png)
+
 #### 2. Capture
 
 通过Web中间人代理的方式对本机以及局域网设备进行数据抓包和修改测试。
@@ -44,3 +42,9 @@ Reqable提供了两大基本功能：**REST**和**Capture**调试，前者用于
 - [x] 镜像功能：对指定域名配置镜像。
 - [ ] 对比功能：Diff两个请求或相应（规划中）。
 - [x] 更多功能：重发，高亮、HAR导入导出等。
+
+![脚本功能](arts/art03.png)
+
+## 历史
+
+Reqable的前身是HttpCanary（一款Android平台应用程序），但是我们推翻了所有的技术栈，并用C++和Flutter重写，只保留了logo和主题色，所以两者并没有太多关联。当然，Reqable的使命之一，就是完全替代HttpCanary。
