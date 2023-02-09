@@ -16,7 +16,7 @@
 
 ![](arts/gateway_02.png)
 
-输入规则名称和匹配的URL，URL支持简单的Wildcard * 和 ? 匹配，选择一个行为。Reqable支持以下五种行为模式：
+输入规则名称和匹配的URL，URL支持简单的Wildcard * 和 ? 匹配，最后需要选择一个行为。Reqable支持以下五种行为模式：
 
 #### 仅允许
 
