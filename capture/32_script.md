@@ -183,7 +183,7 @@ def onRequest(context, request):
 |*type_none*|int|表示空Body，枚举值。此类型时，payload为None。|
 |*type_text*|int|表示Body类型为字符串，枚举值。此类型时，payload为str。|
 |*type_binary*|int|表示Body类型为字节数据，枚举值。此类型时，payload为list。|
-|*type_multipart*|int|表示Body类型为multiparts类型，枚举值。此类型时，payload为CaptureHttpMultipartBody的列表。|
+|*type_multipart*|int|表示Body类型为multiparts类型，枚举值。此类型时，payload为[CaptureHttpMultipartBody](#api-multipart-body)的列表。|
 |**type**|int|上面四个枚举值之一，表示Body的类型。|
 |**payload**|多态类型，参照上方说明。|Body的数据。|
 
@@ -193,7 +193,7 @@ def onRequest(context, request):
 |text|str||设置为字符串Body，内容为参数值。|
 |textFromFile|str||设置为字符串Body，并从指定文件路径中读取字符串数据。|
 |binary|str或bytes||设置为字节Body，参数为str时表示从指定文件路径中读取数据。|
-|multiparts|list||设置为Multipart Body，参数为CaptureHttpMultipartBody的列表。|
+|multiparts|list||设置为Multipart Body，参数为[CaptureHttpMultipartBody](#api-multipart-body)的列表。|
 |writeFile|str||将Body数据写入文件。注意：不支持Multipart类型Body。|
 
 代码示例：
@@ -236,7 +236,7 @@ def onRequest(context, request):
 
 #### CaptureHttpMultipartBody {#api-multipart-body}
 
-CaptureHttpMultipartBody继承于CaptureHttpBody，额外多出一个headers成员。
+CaptureHttpMultipartBody继承于[CaptureHttpBody](#api-body)，额外多出一个headers成员。
 
 |   变量  |  类型 |  说明  |
 |  ----  | ----  | ----  |
@@ -275,6 +275,12 @@ Reqable提供了脚本控制台功能，方便开发人员查看脚本的日志�
 ### 运行环境
 
 脚本功能依赖于本机的python3环境，请务必保证本机设备上安装了python3。新手请参考[Python3下载和安装](https://www.runoob.com/python3/python3-install.html)。
+
+:::caution
+
+**要求Python3版本必须大于 3.6**
+
+:::
 
 如果本机上有多个python3环境，可以手动指定Python3 Home路径：**右击脚本图标 -> 设置环境**
 
