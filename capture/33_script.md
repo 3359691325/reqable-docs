@@ -286,6 +286,16 @@ Reqable提供了脚本控制台功能，方便开发人员查看脚本的日志�
 
 ![](arts/script_04.png)
 
+### 执行顺序
+
+一个请求或者响应可以挂载多个脚本（通过新建不同的规则来匹配同一个url），那必然会涉及到脚本执行先后顺序的问题。我们可以在脚本列表中调整先后顺序（快捷键`Ctrl` + `↓/↑`）来设定优先级，列表靠前的先执行。
+
+### 导入导出
+
+Reqable支持脚本的批量导入和导出，方便与他人进行分享和协同。
+
+![](arts/script_05.png)
+
 ### 示例
 
 下面是一个自动保存图片的脚本示例。
@@ -304,11 +314,11 @@ def onResponse(context, response):
   mime = response.mime
   if mime == None:
     return response
-    
+
   maintype, subtype = mime.split('/')
   if not maintype == 'image':
     return response
-    
+
   # 保存图片到指定目录，文件名为时间戳，后缀根据Mime类型推导
   dir = '/Users/megatronking/Downloads/reqable/'
   os.makedirs(dir, exist_ok=True)
@@ -317,9 +327,9 @@ def onResponse(context, response):
   image = os.path.join(dir, name + ext)
 
   # 响应体写入文件
-  print(f'Saving image {image}')  
-  response.body.writeFile(image) 
-  
+  print(f'Saving image {image}')
+  response.body.writeFile(image)
+
   # Done
   return response
 ```
