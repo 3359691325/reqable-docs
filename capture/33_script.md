@@ -272,7 +272,7 @@ Reqable提供了脚本控制台功能，方便开发人员查看脚本的日志�
 
 上图示例中，我们编写了一个除零错误，控制台中也产生了相应的报错信息。
 
-### 运行环境
+### 运行环境 {#env}
 
 脚本功能依赖于本机的python3环境，请务必保证本机设备上安装了python3。新手请参考[Python3下载和安装](https://www.runoob.com/python3/python3-install.html)。
 
