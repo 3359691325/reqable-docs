@@ -11,6 +11,7 @@ RESTful接口测试是Reqable的两大基本功能之一，帮助开发者调试
 Reqable提供了多样化的接口测试功能：
 - [请求方法](method)
 - [请求头部](header)
+- [请求体](body)
 - [请求ID](request_id)
 - [Cookie](cookie)
 - [授权](authorization)
