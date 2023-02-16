@@ -4,19 +4,19 @@ sidebar_position: 0
 
 # 概览
 
-Reqable是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)，简单易用，功能强大，性能高效，助力程序开发和测试人员提高生产力！
+Reqable是一款跨平台的专业HTTP开发和调试工具，在全平台支持HTTP1、HTTP2和HTTP3(QUIC)协议，简单易用、功能强大、性能高效，助力程序开发和测试人员提高生产力！
 
 ![概览](arts/art01.png)
 
 ## 特性
 
-Reqable提供了两大基本功能：**RESTful接口**和**抓包调试**，前者用于常规的接口测试，后者提供更专业地对HTTP网路测试功能，两者相辅相成。
+Reqable提供了两大基本功能：**[接口测试](#rest)**和**[抓包调试](#capture)**，前者用于发送HTTP请求，后者提供更专业地对HTTP网路测试功能，两者相辅相成。
 
-#### 1. REST
+#### 1. 接口测试 {#rest}
 
-编辑并发送HTTP请求，用来测试接口和获取结果。
+类似Postman，可以编辑和发送HTTP请求，用来测试接口请求。
 
-- [x] 支持HTTP/1.1, HTTP2和HTTP3(QUIC)协议版本。
+- [x] 多协议版本，支持HTTP/1.1, HTTP2和HTTP3(QUIC)。
 - [x] 支持Json/Text/Urlencode/Multiparts/Binary多数据类型，以及文件拖拽。
 - [x] 支持JSON/XML/图片/HEX/Multiparts等多种视图，数据浏览更方便。
 - [x] URL语法高亮和多行显示，对超长的URL非常友好。
@@ -28,7 +28,7 @@ Reqable提供了两大基本功能：**RESTful接口**和**抓包调试**，前�
 
 ![API请求](arts/art02.png)
 
-#### 2. Capture
+#### 2. 抓包调试 {#capture}
 
 通过Web中间人代理的方式对本机以及局域网设备进行数据抓包和修改测试。
 
