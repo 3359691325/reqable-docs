@@ -17,7 +17,7 @@ Reqable提供了两大基本功能：**[接口测试](#rest)**和**[抓包调试
 类似Postman，可以编辑和发送HTTP请求，用来测试接口请求。
 
 - [x] 多协议版本，支持HTTP/1.1, HTTP2和HTTP3(QUIC)。
-- [x] 支持Json/Text/Urlencode/Multiparts/Binary多数据类型，以及文件拖拽。
+- [x] 支持JSON/Text/Urlencode/Multiparts/Binary多数据类型，以及文件拖拽。
 - [x] 支持JSON/XML/图片/HEX/Multiparts等多种视图，数据浏览更方便。
 - [x] URL语法高亮和多行显示，对超长的URL非常友好。
 - [x] Header编辑具有自动提示功能，以及超赞的批量编辑。

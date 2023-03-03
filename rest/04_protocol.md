@@ -24,6 +24,6 @@ HTTP2是目前非常常用的HTTP协议版本，相比于HTTP1.1，其多路复�
 
 ### HTTTP3
 
-HTTP3是从[QUIC](https://www.ietf.org/rfc/rfc9000.txt)发展而来，相比于HTTP2，其性能和安全得到进一步的提示，但很遗憾，大多数的HTTP服务框架都不支持这个版本。作为未来的新协议，Reqable还是给予了足够的支持。如果服务端不支持HTTP3协议版本，则会被降级到HTTP1.1协议版本，我们可以在响应标签上查看具体使用的协议版本。
+HTTP3是从[QUIC](https://www.ietf.org/rfc/rfc9000.txt)发展而来，相比于HTTP2，其性能和安全得到进一步的提升，但很遗憾，大多数的HTTP服务框架都不支持这个版本。作为未来的新协议，Reqable还是给予了足够的支持。如果服务端不支持HTTP3协议版本，则会被降级到HTTP1.1协议版本，我们可以在响应标签上查看具体使用的协议版本。
 
 ![](arts/protocol_04.png)
