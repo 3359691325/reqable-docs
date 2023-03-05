@@ -33,6 +33,10 @@ Reqable支持十一种强调色：
 
 ![](arts/accent.png)
 
+### 代码配色
+
+Reqable当前使用的是Atom One配色，如果您有其他的配色需求，请在此[issue](https://github.com/reqable/reqable-app/issues/17)下留言。
+
 ### 语言
 
 Reqable目前仅支持下面两种语言：
