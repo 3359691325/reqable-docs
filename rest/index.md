@@ -1,12 +1,12 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 接口
 
 RESTful接口测试是Reqable的两大基本功能之一，帮助开发者调试接口API。Reqable目前支持HTTP1.1、HTTP2和HTTP3（QUIC）协议，核心网络库采用的是[Cronet](https://chromium.googlesource.com/chromium/src/+/master/components/cronet/)，业内最前沿的HTTP网络请求框架。
 
-![接口界面](../overview/arts/art02.png)
+![接口界面](../overview/arts/rest.png)
 
 Reqable提供了多样化的接口测试功能：
 - [请求方法](method)

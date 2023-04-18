@@ -12,7 +12,7 @@ Reqable支持丰富的主题设置，可以在 设置 -> 主题 中配置您喜�
 
 Reqable支持三种模式：亮色、暗色和跟随系统（即使用系统当前的模式）。
 
-![](arts/appearence.png)
+![亮色效果](arts/appearence.png)
 
 ### 强调色
 
