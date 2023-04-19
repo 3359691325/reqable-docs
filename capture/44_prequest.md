@@ -5,7 +5,7 @@ HTTPS请求在建立TCP连接前，会先使用Connect请求方法向代理服�
 ![](arts/prequest_01.png)
 
 :::info 注意
-此功能仅当配置了HTTPS代理时生效，如果代理方式是HTTP或者Sock则不生效。关于代理方式，请参阅[此处](proxy)。
+此功能仅当使用HTTPS代理协议时生效，关于代理协议支持，请参阅[此处](proxy)。
 :::
 
 注意，https代理请求以下功能无法使用：
