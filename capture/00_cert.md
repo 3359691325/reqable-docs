@@ -11,13 +11,21 @@
 ### 证书安装
 
 不同平台的SSL证书安装方式各有差异，请根据设备平台选择安装指南：
-- [MacOS](/docs/capture/cert_install_macos)
 - [Windows](/docs/capture/cert_install_windows)
+- [MacOS](/docs/capture/cert_install_macos)
 - [Linux](/docs/capture/cert_install_linux)
 - [Android](/docs/capture/cert_install_android)
 - [iOS](/docs/capture/cert_install_ios)
 
-### 证书导出
+### 证书导出{#export}
+
+#### 方式1
 
 在**[覆写系统代理](proxy)**的前提下，使用浏览器打开下面的链接即可自动下载证书：  
-http://proxy.reqable/ssl
+http://reqable.proxy/ssl
+
+#### 方式2
+
+打开证书安装页面弹窗，点击左下角**导出证书**按钮：
+
+![](arts/cert_01.png)
