@@ -1,5 +1,22 @@
 # Linux
 
+### v0.1.6
+- 支持基于HTTP1的Websocket。
+- 优化Malformed请求或响应的处理逻辑。
+- 优化代理下层协议检测逻辑。
+- API请求支持Content-Encoding，包括gzip/br/compress/deflate。
+- API请求添加不支持的HTTP头部警告提示。
+- 修复使用sock5代理解析到IPv6地址导致崩溃的bug。
+- 修复调试有记录但是显示空列表的bug。
+- 修复清除调试历史记录未能清理文件缓存的bug。
+- 修复调试历史记录中代理请求未能替换的bug。
+- 修复API请求头部自定义Cookie突然消失的bug。
+- 修复API请求无法自动填充domain为子域名Cookie的bug。
+- 修复Malformed请求或响应导致无法导出HAR文件的bug。
+- 修复网关仅允许和静默无法作用于代理请求的bug。
+- 修复调试列表图标不正确的bug。
+- [更多详情](https://reqable.com/blog/2023/05/12/post)
+
 ### v0.1.5
 - 支持IPv6。
 - 新增显示代理连接失败和SSL握手失败请求的相关信息。
