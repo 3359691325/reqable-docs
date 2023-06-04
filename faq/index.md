@@ -16,5 +16,5 @@ C:\Users\xxx\AppData\Roaming\Reqable\log
 ```
 - Linux
 ```
-/tmp/Reqable/log
+~/.local/share/reqable
 ```
